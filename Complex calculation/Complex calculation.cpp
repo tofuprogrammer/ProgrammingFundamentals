@@ -1,20 +1,6 @@
-// Complex calculation.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include <iostream> // Allows usage of input and output functions such as std::cout.
 
-#include <iostream>
-
-int main()
+int main() // Starting point for the program.
 {
-    std::cout << ((919 * (-1)) - 6) / 2.56;
+    std::cout << ((919 * (-1)) - 6) / 2.56; // Calculates the value of 919 * -1 (-919), subtracts 6 (-925), then divides by 2.56 (-361.328) before outputting to the console without a new line.
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

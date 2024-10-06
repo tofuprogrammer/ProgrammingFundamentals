@@ -1,22 +1,8 @@
-// Percentage.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include <iostream> // Allows usage of input and output functions such as std::cout.
 
-#include <iostream>
-
-int main()
+int main() // Starting point for the program.
 {
-    float percentage = (static_cast<float>(43) / 100);
-    int number = 18;
-    std::cout << percentage * number;
+    const float percentage = (43.0f / 100.0f); // Defines "percentage" as a constant variable of type float (floating point) initialised to a value of 0.43 (43.0 / 100.0).
+    const int number = 18;  // Defines "number" as a constant variable of type float (floating point) initialised to a value of 18.
+    std::cout << percentage * number; // Multiplies the stored values of percentage (0.43) and number (18) then outputs the result (7.74).
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

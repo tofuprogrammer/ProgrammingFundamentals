@@ -1,26 +1,24 @@
 // Euler.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include <iostream> // Allows usage of input and output functions such as std::cout.
+#include <iomanip>  // Allows usage of the setprecision function
+#include <cmath>    // Allows usage of the abs() function
 
-int main()
+int main() // Starting point for the program.
 {
-    double n = 1;
-    double value = 1;
-    while (value != 2.71828) {
-        value = value + (1 / tgamma(n + 1));
-        n++;
+    const double value = 2.71828; // Defines "value" as a constant variable of type double (double precision floating point) initialised to a value of 2.71828. This is the target value.
+    const double precision = 1e-5; // Defines "precision" as a constant variable of type double (double precision floating point) initialised to a value of 0.00001. This is the acceptable range of the value the program is looking for.
+    double approx_e_value = 1.0; // Defines "approx_e_value" as a mutable variable of type double (double precision floating point) initialised to a value of 1.0. This tracks the approximate value of e that has been calculated most recently.
+    double factorial_value = 1.0;  // Defines "factorial_value" as a mutable variable of type double (double precision floating point) initialised to a value of 1.0. This tracks the value of the factorial used as the denominator in Euler's formula.
+    int iterations = 1;  // Defines "iterations" as a mutable variable of type int (integer) initialised to a value of 1. This tracks how many iterations the program has gone through.
+
+    while (std::abs(approx_e_value - value) > precision) // The code inside this while loop will run until the absolute value of the approximate calculated value of e minus the true value of e is less than the value of the variable "precision" as this indicates that an approximate value of e to 5 d.p. has been found.
+    {
+        std::cout << "The current approximate value of e is: " << approx_e_value << std::endl; // Displays the most recently calculated approximate value for e until a suitable value is found, it begins at 1.0.
+        factorial_value *= iterations; // Multiplies the value of the "factorial_value" variable by the number of iterations to find the next factorial value.
+        approx_e_value += 1.0 / factorial_value; // Applies Euler's formula to the most recently calculated approximate value for e to find the new value.
+        ++iterations; // Increments the variable that stores the number of iterations by 1.
     }
-    std::cout << "It took " << n + 1 << " attempts to find the value of e to 5 decimal places, therefore it requires " << n + 1 << " summed terms";
+    std::cout << "The approximate value of e (" << std::setprecision(6) << approx_e_value <<") has been found after " << iterations << " iterations."; // Outputs the result.
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

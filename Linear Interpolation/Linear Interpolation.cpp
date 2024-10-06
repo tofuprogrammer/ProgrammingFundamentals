@@ -1,23 +1,9 @@
-// Linear Interpolation.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include <iostream> // Allows usage of input and output functions such as std::cout.
 
-#include <iostream>
-
-int main()
+int main() // Starting point for the program.
 {
-    float a = 10;
-    float b = 20;
-    float t = 0.35;
-    std::cout << a + (b - a) * t;
+    const float a = 10.0f; // Defines "a" as a constant variable of type float (floating point) initialised to a value of 10.
+    const float b = 20.0f; // Defines "a" as a constant variable of type float (floating point) initialised to a value of 20.
+    const float t = 0.35f; // Defines "a" as a constant variable of type float (floating point) initialised to a value of 0.35.
+    std::cout << a + (b - a) * t; // This first subtracts b (20) from a (10), then multiplies the result (10) by t (0.35) to get 3.5, then adds this to a, then outputs the result (13.5). 
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file

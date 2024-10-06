@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Boat", "First Project\First Project.vcxproj", "{9321F0C3-7398-4522-BC2E-7D4C603316E3}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello World!", "Hello World!\Hello World!.vcxproj", "{5F37E4E5-A44E-49F9-BEA8-272A5799A25D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello there!", "Hello there!\Hello there!.vcxproj", "{22A8BD59-6774-469E-83EB-0CDB87F2EDBA}"
@@ -13,7 +11,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello World with double quo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "using namespace std;", "using namespace std;\using namespace std;.vcxproj", "{191FFB46-53A7-445F-9231-D8A4B202645D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Double Hello there with newline", "Double Hello there\Double Hello there.vcxproj", "{12004317-4AAC-4DB3-B449-C79707332568}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Double Hello there with newline", "Double Hello there with newline\Double Hello there with newline.vcxproj", "{12004317-4AAC-4DB3-B449-C79707332568}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Double Hello there without newline", "Double Hello there without newline\Double Hello there without newline.vcxproj", "{0E1C74AB-363D-4783-8EC5-DAC5940A73E3}"
 EndProject
@@ -63,14 +61,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9321F0C3-7398-4522-BC2E-7D4C603316E3}.Debug|x64.ActiveCfg = Debug|x64
-		{9321F0C3-7398-4522-BC2E-7D4C603316E3}.Debug|x64.Build.0 = Debug|x64
-		{9321F0C3-7398-4522-BC2E-7D4C603316E3}.Debug|x86.ActiveCfg = Debug|Win32
-		{9321F0C3-7398-4522-BC2E-7D4C603316E3}.Debug|x86.Build.0 = Debug|Win32
-		{9321F0C3-7398-4522-BC2E-7D4C603316E3}.Release|x64.ActiveCfg = Release|x64
-		{9321F0C3-7398-4522-BC2E-7D4C603316E3}.Release|x64.Build.0 = Release|x64
-		{9321F0C3-7398-4522-BC2E-7D4C603316E3}.Release|x86.ActiveCfg = Release|Win32
-		{9321F0C3-7398-4522-BC2E-7D4C603316E3}.Release|x86.Build.0 = Release|Win32
 		{5F37E4E5-A44E-49F9-BEA8-272A5799A25D}.Debug|x64.ActiveCfg = Debug|x64
 		{5F37E4E5-A44E-49F9-BEA8-272A5799A25D}.Debug|x64.Build.0 = Debug|x64
 		{5F37E4E5-A44E-49F9-BEA8-272A5799A25D}.Debug|x86.ActiveCfg = Debug|Win32
@@ -260,7 +250,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9321F0C3-7398-4522-BC2E-7D4C603316E3} = {583D3AB5-9A01-459E-A20E-2F213A023D60}
 		{5F37E4E5-A44E-49F9-BEA8-272A5799A25D} = {583D3AB5-9A01-459E-A20E-2F213A023D60}
 		{22A8BD59-6774-469E-83EB-0CDB87F2EDBA} = {583D3AB5-9A01-459E-A20E-2F213A023D60}
 		{B09862BD-E701-4455-82F0-0693E0E3C0AF} = {583D3AB5-9A01-459E-A20E-2F213A023D60}

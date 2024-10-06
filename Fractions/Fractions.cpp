@@ -1,22 +1,8 @@
-// Fractions.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include <iostream> // Allows usage of input and output functions such as std::cout.
 
-#include <iostream>
-
-int main()
+int main() // Starting point for the program.
 {
-    float half = (static_cast<float>(1) / 2);
-    float three_quarters = (static_cast<float>(3) / 4);
-    std::cout << half + three_quarters;
+    const float half = (1.0 / 2.0); // Defines "half" as a constant variable of type float (floating point) initialised to a value of 0.5 (1.0 / 2.0).
+    const float three_quarters = (3.0 / 4.0); // Defines "three_quarters" as a constant variable of type float (floating point) initialised to a value of 0.75 (3.0 / 4.0).
+    std::cout << half + three_quarters; // Adds the stored values of half (0.5) and three_quarters (0.75) together and outputs the result (1.25).
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
