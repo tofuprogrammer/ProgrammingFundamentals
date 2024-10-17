@@ -1,15 +1,12 @@
 #include <iostream>
 #include <string>
 
-std::string Return_String (std::string string_to_return)
+std::string Return_String ()
 {
-    return string_to_return;
+    return "String";
 }
 int main()
 {
-    std::string user_string;
-    std::cout << "Enter some text: ";
-    std::cin >> user_string;
-    std::string result = Return_String (user_string);
-    std::cout << "The text you entered is " << result;
+    std::string string_to_return = Return_String ();
+    std::cout << string_to_return;
 }
