@@ -1,11 +1,11 @@
 #include <iostream>
 
-int Name()
+int mame()
 {
     std::cout << "Sam";
     return 0;
 }
 int main()
 {
-    Name();
+    mame();
 }

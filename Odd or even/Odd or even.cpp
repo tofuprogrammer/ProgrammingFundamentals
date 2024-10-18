@@ -1,6 +1,6 @@
 #include <iostream>
 
-bool Odd_Or_Even (int number)
+bool odd_or_even (int number)
 {
     if (number % 2 == 1)
     {
@@ -16,7 +16,7 @@ int main()
     int user_number;
     std::cout << "Enter a number: ";
     std::cin >> user_number;
-    bool result = Odd_Or_Even(user_number);
+    bool result = odd_or_even(user_number);
     if (result == true)
     {
         std::cout << "The number you entered is odd";

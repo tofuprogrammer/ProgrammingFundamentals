@@ -97,6 +97,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Maths functions", "Maths fu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial 6 - The preprocessor and user-defined types", "Tutorial 6 - The preprocessor and user-defined types", "{B5A470CC-4FA8-4484-9C38-BCCA0CDEC9A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Header file", "Header file\Header file.vcxproj", "{38308588-1463-4BCE-A089-87159A3012A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -417,6 +419,14 @@ Global
 		{17839E26-C804-4DD7-888D-45165775ED57}.Release|x64.Build.0 = Release|x64
 		{17839E26-C804-4DD7-888D-45165775ED57}.Release|x86.ActiveCfg = Release|Win32
 		{17839E26-C804-4DD7-888D-45165775ED57}.Release|x86.Build.0 = Release|Win32
+		{38308588-1463-4BCE-A089-87159A3012A6}.Debug|x64.ActiveCfg = Debug|x64
+		{38308588-1463-4BCE-A089-87159A3012A6}.Debug|x64.Build.0 = Debug|x64
+		{38308588-1463-4BCE-A089-87159A3012A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{38308588-1463-4BCE-A089-87159A3012A6}.Debug|x86.Build.0 = Debug|Win32
+		{38308588-1463-4BCE-A089-87159A3012A6}.Release|x64.ActiveCfg = Release|x64
+		{38308588-1463-4BCE-A089-87159A3012A6}.Release|x64.Build.0 = Release|x64
+		{38308588-1463-4BCE-A089-87159A3012A6}.Release|x86.ActiveCfg = Release|Win32
+		{38308588-1463-4BCE-A089-87159A3012A6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -463,6 +473,7 @@ Global
 		{D766D612-677C-4B94-8E23-5D12C91EB6C7} = {841BEA3C-A623-46A8-A3C1-D6E355FC8610}
 		{FC62D2F0-BDA1-46DA-A0FC-F5A1622D4E30} = {841BEA3C-A623-46A8-A3C1-D6E355FC8610}
 		{17839E26-C804-4DD7-888D-45165775ED57} = {841BEA3C-A623-46A8-A3C1-D6E355FC8610}
+		{38308588-1463-4BCE-A089-87159A3012A6} = {B5A470CC-4FA8-4484-9C38-BCCA0CDEC9A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D20E22C5-5AF1-4365-8D05-6DC6D0BE553D}
