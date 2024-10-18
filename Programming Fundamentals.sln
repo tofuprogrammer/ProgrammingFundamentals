@@ -25,9 +25,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "t Escape Sequence", "t Esca
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stream Insertion Operator", "Stream Insertion Operator\Stream Insertion Operator.vcxproj", "{0706251E-CA9D-4E0B-A089-44D5C6738B35}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 1 - Basics", "Lecture 1 - Basics", "{583D3AB5-9A01-459E-A20E-2F213A023D60}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial 1 - Basics", "Tutorial 1 - Basics", "{583D3AB5-9A01-459E-A20E-2F213A023D60}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 2 - Data, statements, and variables", "Lecture 2 - Data, statements, and variables", "{D59D6BBD-824C-44A2-BCCB-CA6E910A1BEC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial 2 - Data, statements, and variables", "Tutorial 2 - Data statements and variables", "{D59D6BBD-824C-44A2-BCCB-CA6E910A1BEC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arithmetic Operators", "Arithmetic Operators\Arithmetic Operators.vcxproj", "{7A2560A7-50EC-4C09-BF9A-8748814F0262}"
 EndProject
@@ -53,7 +53,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Angles", "Angles\Angles.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Euler", "Euler\Euler.vcxproj", "{C69CD255-A0C2-4ECC-BA6B-1E865BD1F868}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 3 - Conditions", "Lecture 3 - Conditions", "{858FDCC9-E46F-4495-9317-B97E04441130}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial 3 - Conditions", "Tutorial 3 - Conditions", "{858FDCC9-E46F-4495-9317-B97E04441130}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Comparisons", "Comparisons\Comparisons.vcxproj", "{916FD457-D33C-4FD4-9D2B-288611BB6E4F}"
 EndProject
@@ -63,7 +63,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grade Calculator A", "Grade
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grade Calculator B", "Grade Calculator B\Grade Calculator B.vcxproj", "{CFABC53F-A72E-470A-B604-18EC5372DD58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 4 - Loops", "Lecture 4 - Loops", "{875A0F96-F474-47B8-8C13-2C06CB571891}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial 4 - Loops", "Tutorial 4 - Loops", "{875A0F96-F474-47B8-8C13-2C06CB571891}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Input sanitization", "Input sanitization\Input sanitization.vcxproj", "{E6A06890-F1C6-4F2F-B6F4-720003AC78A1}"
 EndProject
@@ -77,7 +77,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Negative numbers sum", "Neg
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Negative numbers mean", "Negative numbers mean\Negative numbers mean.vcxproj", "{AB4F4412-A197-4B4C-9983-B55ACB9E03E4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture 5 - Functions", "Lecture 5 - Functions", "{841BEA3C-A623-46A8-A3C1-D6E355FC8610}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorial 5 - Functions", "Tutorial 5 - Functions", "{841BEA3C-A623-46A8-A3C1-D6E355FC8610}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Square", "Square\Square.vcxproj", "{7751CD1D-D887-4CA4-81EE-24EE978C1536}"
 EndProject
