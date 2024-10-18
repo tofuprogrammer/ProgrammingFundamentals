@@ -1,4 +1,22 @@
 #include "Header.h"
+#include "Console.h"
+
+void set_cursor(int x, int y)
+{
+    std::cout << "\x1b[" << y << ";" << x << "H";
+}
+void clear_rows(int rows)
+{
+    std::cout << "\x1b[" << rows << "M";
+}
+void set_background_colour(int background_colour)
+{
+    std::cout << "\033[" << background_colour << "m";
+}
+void set_foreground_colour(int foreground_colour)
+{
+    std::cout << "\033[" << foreground_colour << "m";
+}
 
 int main()
 {
@@ -18,4 +36,15 @@ int main()
     
     result = sub(number_a, number_b);
     std::cout << number_a << " - " << number_b << " = " << result << '\n';
+
+    set_foreground_colour(33);
+    set_background_colour(34);
+    std::cout << "a";
+    set_cursor(10, 10);
+    std::cout << "b";
+    set_cursor(20, 20);
+    std::cout << "c";
+    clear_rows(30);
+
+    
 }

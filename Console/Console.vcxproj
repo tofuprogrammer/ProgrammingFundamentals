@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{38308588-1463-4BCE-A089-87159A3012A6}</ProjectGuid>
+    <ProjectGuid>{A61F3B97-97C2-4197-906F-C2FF5FBF83EB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Header_file</RootNamespace>
+    <RootNamespace>Console</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,12 +154,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Header file.cpp" />
+    <ClCompile Include="Console.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Console.h" />
-    <ClInclude Include="Header.h" />
-    <ClInclude Include="Maths.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
