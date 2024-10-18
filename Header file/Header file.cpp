@@ -1,5 +1,5 @@
-#include "Header.h"
-#include "Console.h"
+#include "Header.hpp"
+#include "Console.hpp"
 
 void set_cursor(int x, int y)
 {

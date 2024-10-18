@@ -1,3 +1,3 @@
 #pragma once
 #include <iostream>
-#include "Maths.h"
+#include "Maths.hpp"
