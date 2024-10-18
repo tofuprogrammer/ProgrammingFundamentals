@@ -45,7 +45,5 @@ int main()
     std::cout << "b";
     set_cursor(20, 20);
     std::cout << "c";
-    clear_rows(30);
-
-    
+    clear_rows(30);    
 }
