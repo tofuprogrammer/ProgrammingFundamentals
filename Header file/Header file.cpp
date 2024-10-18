@@ -13,10 +13,11 @@ void set_background_colour(int background_colour)
 {
     std::cout << "\033[" << background_colour << "m";
 }
-void set_foreground_colour(int foreground_colour)
+/* void set_foreground_colour(int foreground_colour)
 {
     std::cout << "\033[" << foreground_colour << "m";
 }
+This function is redundant */
 
 int main()
 {
@@ -38,7 +39,7 @@ int main()
     std::cout << number_a << " - " << number_b << " = " << result << '\n';
 
     set_foreground_colour(33);
-    set_background_colour(34);
+    // set_background_colour(34); This functions does the same as set_foreground_colour
     std::cout << "a";
     set_cursor(10, 10);
     std::cout << "b";
