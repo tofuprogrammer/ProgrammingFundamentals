@@ -117,6 +117,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Address of", "Address of\Ad
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dereferencing", "Dereferencing\Dereferencing.vcxproj", "{08895C63-6279-423D-94F5-01B9E1317D3E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer arithmetic", "Pointer arithmetic\Pointer arithmetic.vcxproj", "{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -501,6 +503,14 @@ Global
 		{08895C63-6279-423D-94F5-01B9E1317D3E}.Release|x64.Build.0 = Release|x64
 		{08895C63-6279-423D-94F5-01B9E1317D3E}.Release|x86.ActiveCfg = Release|Win32
 		{08895C63-6279-423D-94F5-01B9E1317D3E}.Release|x86.Build.0 = Release|Win32
+		{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD}.Debug|x64.ActiveCfg = Debug|x64
+		{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD}.Debug|x64.Build.0 = Debug|x64
+		{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD}.Debug|x86.Build.0 = Debug|Win32
+		{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD}.Release|x64.ActiveCfg = Release|x64
+		{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD}.Release|x64.Build.0 = Release|x64
+		{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD}.Release|x86.ActiveCfg = Release|Win32
+		{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -555,6 +565,7 @@ Global
 		{AFAEE8B8-8933-44D5-8A64-316094D94470} = {D3491F59-0F58-45D4-B038-D06997B22853}
 		{2DB81C52-4A5C-4B2C-A2E4-5FF47B16E131} = {D3491F59-0F58-45D4-B038-D06997B22853}
 		{08895C63-6279-423D-94F5-01B9E1317D3E} = {D3491F59-0F58-45D4-B038-D06997B22853}
+		{6A13E86A-7DD2-4ECC-87E4-6F78C4B772FD} = {D3491F59-0F58-45D4-B038-D06997B22853}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D20E22C5-5AF1-4365-8D05-6DC6D0BE553D}
