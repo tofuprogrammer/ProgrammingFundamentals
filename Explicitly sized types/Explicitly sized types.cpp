@@ -38,5 +38,5 @@ int main()
     // The sizes of the variables are as expected
     std::cout << '\n';
     bool aBoolean = true;
-    checkBoolSize(bool aBoolean);
+    std::cout << checkBoolSize(aBoolean);
 }
