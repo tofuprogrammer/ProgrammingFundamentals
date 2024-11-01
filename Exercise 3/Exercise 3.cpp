@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
 
 #include <iostream>
 
-int main(int argc, char* argv[])
+int main()
 {
     char someString[] = "this is an example";
     char* strPtr = someString;
@@ -49,6 +49,4 @@ int main(int argc, char* argv[])
     *(--strPtr) = 0;
  
     std::cout << someString << '\n';
- 
-    return 0;
 }
