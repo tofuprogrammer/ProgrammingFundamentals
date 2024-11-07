@@ -3,7 +3,6 @@
 
 class Enemy
 {
-private:
     bool inRadiusOfPlayer;
     bool isDead;
 public:
